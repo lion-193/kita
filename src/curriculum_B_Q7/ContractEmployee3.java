@@ -1,4 +1,4 @@
-package curriculum_Bobjkt;
+package curriculum_B_Q7;
 
 // 契約社員の計算ロジックだけを持つ具象クラス（O, L）
 

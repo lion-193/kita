@@ -3,9 +3,10 @@ package curriculum_B;
 public class Animal {
 
 	// Q5
-	private String name;
-	private String height;
-	private String speed;
+	private String name; // 動物名は文字列でOK
+	private double height; // 体長は数値なので double
+	private int speed; // 速度は数値なのでint
+
 	// フィールド（変数）
 
 	public String getName() {
@@ -18,22 +19,22 @@ public class Animal {
 	}
 	// thisで自分のnameに代入
 
-	public String getHeight() {
+	public double getHeight() {
 		return height;
 	}
 	// heightのgetterとsetter
 
-	public void setHeight(String height) {
+	public void setHeight(double height) {
 		this.height = height;
 	}
 	// thisで自分のheightに代入
 
-	public String getSpeed() {
+	public int getSpeed() {
 		return speed;
 	}
 	// speedのgetterとsetter
 
-	public void setSpeed(String speed) {
+	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
 	// thisで自分のspeedに代入

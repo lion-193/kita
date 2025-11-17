@@ -1,4 +1,4 @@
-package curriculum_Bprmf;
+package curriculum_B_Q5;
 
 // 親クラス
 

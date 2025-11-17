@@ -1,4 +1,4 @@
-package curriculum_Bintrf;
+package curriculum_B_Q6;
 
 import java.util.ArrayList;
 import java.util.List;

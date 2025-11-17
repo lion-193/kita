@@ -1,4 +1,4 @@
-package curriculum_Bobjkt;
+package curriculum_B_Q7;
 
 // 正社員の計算ロジックだけを持つ具象クラス
 // 新しい社員タイプは新クラス追加で拡張

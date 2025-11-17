@@ -1,4 +1,4 @@
-package curriculum_Bobjkt;
+package curriculum_B_Q7;
 
 // 社員共通のデータのみを持つ抽象基底
 // 給与計算（Payable）は抽象メソッドとして下位型に委譲

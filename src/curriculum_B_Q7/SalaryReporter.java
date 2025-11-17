@@ -1,4 +1,4 @@
-package curriculum_Bobjkt;
+package curriculum_B_Q7;
 
 import java.util.List;
 

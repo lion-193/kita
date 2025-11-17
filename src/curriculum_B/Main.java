@@ -14,14 +14,12 @@ public class Main {
 		// animalクラスのインスタンス作成
 
 		a.setName("ライオン");
-		a.setHeight("2.1km");
-		a.setSpeed("80km/h");
+		a.setHeight(2.1);
+		a.setSpeed(80);
 		// setterで値をセット
 
 		System.out.println("動物名：" + a.getName());
-		System.out.println("体長：" + a.getHeight());
-		System.out.println("速度：" + a.getSpeed());
-
+		System.out.println("体長：" + a.getHeight() + "m");
+		System.out.println("速度：" + a.getSpeed() + "km/h");
 	}
-
 }

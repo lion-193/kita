@@ -1,4 +1,4 @@
-package curriculum_B;
+package curriculum_B_Q3;
 
 public class Employee3 {
 

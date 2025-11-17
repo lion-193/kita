@@ -1,4 +1,4 @@
-package curriculum_Bintrf;
+package curriculum_B_Q6;
 
 // 抽象クラス（全社員の共通部分をまとめる）
 
