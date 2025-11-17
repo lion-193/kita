@@ -2,13 +2,13 @@ package curriculum_B_Q6;
 
 // 正社員クラス
 
-public class FullTimeEmployee2 extends Employee6 {
+public class FullTimeEmployee extends Employee {
 	// Employee2（抽象クラス）を継承して、共通のデータやルールを引き継ぐ
 	private static final int BASE_RATE = 1250;
 	// 1時間あたりの基本給を定数で設定（1250円）
 	// finalを付けることで変更できなくなる（定数）
 
-	public FullTimeEmployee2(String id, String name) {
+	public FullTimeEmployee(String id, String name) {
 		super(id, name);
 		// 親クラスのコンストラクタを呼び出し
 		// Employee側でidとnameを初期化

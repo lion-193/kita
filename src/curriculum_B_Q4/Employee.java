@@ -1,12 +1,12 @@
 package curriculum_B_Q4;
 
-public abstract class Employee4 {
+public abstract class Employee {
 
 	// 継承
 	private final String employeeId;
 	private final String name;
 
-	public Employee4(String id, String name) {
+	public Employee(String id, String name) {
 		this.employeeId = id;
 		this.name = name;
 	}
@@ -22,7 +22,7 @@ public abstract class Employee4 {
 	public abstract int calculateDailyWage(int hoursWorked);
 
 	// 正社員：8h超過は25%割増（時給1200）
-	public static class FullTimeEmployee extends Employee4 {
+	public static class FullTimeEmployee extends Employee {
 		private static final int HOURLY_RATE = 1200;
 
 		public FullTimeEmployee(String id, String name) {
@@ -37,7 +37,7 @@ public abstract class Employee4 {
 	}
 
 	// パート：割増なし（時給1000）
-	public static class PartTimeEmployee extends Employee4 {
+	public static class PartTimeEmployee extends Employee {
 		private static final int HOURLY_RATE = 1000;
 
 		public PartTimeEmployee(String id, String name) {

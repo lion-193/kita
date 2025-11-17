@@ -2,12 +2,12 @@ package curriculum_B_Q7;
 
 // 契約社員の計算ロジックだけを持つ具象クラス（O, L）
 
-public class ContractEmployee3 extends Employee7 {
+public class ContractEmployee extends Employee {
 
 	private static final int RATE = 1000;
 	// 契約社員の時給
 
-	public ContractEmployee3(String name) {
+	public ContractEmployee(String name) {
 		super(name);
 	}
 

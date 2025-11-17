@@ -1,10 +1,10 @@
 package curriculum_B_Q3;
 
-public class Main3 {
+public class Main {
 	public static void main(String[] args) {
 		
 		// カプセル化
-		Employee3 e = new Employee3();
+		Employee e = new Employee();
 		e.setEmployeeId("E002");
 		e.setName("田中花子");
 		System.out.println("社員ID: " + e.getEmployeeId() + ", 名前: " + e.getName());

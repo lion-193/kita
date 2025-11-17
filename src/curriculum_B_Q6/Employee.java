@@ -2,12 +2,12 @@ package curriculum_B_Q6;
 
 // 抽象クラス（全社員の共通部分をまとめる）
 
-public abstract class Employee6 implements Billable {
+public abstract class Employee implements Billable {
 
 	protected String id;
 	protected String name;
 
-	public Employee6(String id, String name) {
+	public Employee(String id, String name) {
 		// コンストラクタ：社員と名前を初期化
 		this.id = id;
 		this.name = name;

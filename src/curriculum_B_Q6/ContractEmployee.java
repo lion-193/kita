@@ -2,7 +2,7 @@ package curriculum_B_Q6;
 
 // 契約社員クラス
 
-public class ContractEmployee2 extends Employee6 {
+public class ContractEmployee extends Employee {
 	// 抽象クラスを継承して、共通のデータ構造を引き継ぐ
 	// ここではcostForDay()の中身だけ契約社員用に実装する
 
@@ -10,7 +10,7 @@ public class ContractEmployee2 extends Employee6 {
 	// １時間あたりの時給を定数として定義（1000円）
 	// finalをつけることであとから変更されない固定値にする
 
-	public ContractEmployee2(String id, String name) {
+	public ContractEmployee(String id, String name) {
 		super(id, name);
 		// 親クラスのコンストラクタを呼び出して
 		// idとnameを初期化する

@@ -2,7 +2,7 @@ package curriculum_B_Q5;
 
 // 正社員クラス
 
-public class FullTimeEmployee extends Employee5 {
+public class FullTimeEmployee extends Employee {
 	int salary; // 月給
 
 	public FullTimeEmployee(String employeeId, String name, int salary) {

@@ -2,7 +2,7 @@ package curriculum_C;
 
 import java.util.Scanner;
 
-public class Main9 {
+public class Main {
 
 	public static void main(String[] args) {
 

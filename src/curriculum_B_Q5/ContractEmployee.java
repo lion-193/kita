@@ -2,7 +2,7 @@ package curriculum_B_Q5;
 
 // 契約社員クラス
 
-public class ContractEmployee extends Employee5 {
+public class ContractEmployee extends Employee {
 	int hourlyWage; // 時給
 
 	public ContractEmployee(String employeeId, String name, int hourlyWage) {

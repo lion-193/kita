@@ -1,6 +1,6 @@
 package curriculum_B_Q3;
 
-public class Employee3 {
+public class Employee {
 
 	// カプセル化
 	private String employeeId; // 外から直接触らせない

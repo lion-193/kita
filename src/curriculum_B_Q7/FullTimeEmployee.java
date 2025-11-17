@@ -3,10 +3,10 @@ package curriculum_B_Q7;
 // 正社員の計算ロジックだけを持つ具象クラス
 // 新しい社員タイプは新クラス追加で拡張
 
-public class FullTimeEmployee3 extends Employee7 implements Payable {
+public class FullTimeEmployee extends Employee implements Payable {
 	private static final int RATE = 1200;
 
-	public FullTimeEmployee3(String name) {
+	public FullTimeEmployee(String name) {
 		super(name);
 	}
 

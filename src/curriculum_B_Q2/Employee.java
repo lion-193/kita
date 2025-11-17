@@ -1,6 +1,6 @@
 package curriculum_B_Q2;
 
-public class Employee2 {
+public class Employee {
 
 	// クラスとオブジェクト
 	String employeeId; // 社員ID

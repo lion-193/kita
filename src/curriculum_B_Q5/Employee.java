@@ -2,12 +2,12 @@ package curriculum_B_Q5;
 
 // 親クラス
 
-public class Employee5 {
+public class Employee {
 
 	String employeeId;
 	String name;
 
-	public Employee5(String employeeId, String name) {
+	public Employee(String employeeId, String name) {
 		this.employeeId = employeeId;
 		this.name = name;
 	}

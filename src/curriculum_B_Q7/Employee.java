@@ -4,11 +4,11 @@ package curriculum_B_Q7;
 // 給与計算（Payable）は抽象メソッドとして下位型に委譲
 // 下位型は置換可能
 
-public abstract class Employee7 implements HasName, Payable {
+public abstract class Employee implements HasName, Payable {
 
 	protected final String name;
 
-	protected Employee7(String name) {
+	protected Employee(String name) {
 		this.name = name;
 	}
 
