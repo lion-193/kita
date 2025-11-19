@@ -23,7 +23,7 @@ public class BattleLogFile {
 		int damage = attacker.getAt();
 
 		// 防御側のHPを減らす
-		defender.setHP(defender.getHp() - damage);
+		defender.setHp(defender.getHp() - damage);
 
 		// 攻撃ログ（画面＋ファイル）
 		logger.log(attacker.getName() + " の攻撃！ " + defender.getName() + " に " + damage + " のダメージ！");

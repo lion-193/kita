@@ -35,7 +35,7 @@ public class Character {
 	}
 
 	// HP を変更する setter
-	public void setHP(int newHp) {
+	public void setHp(int newHp) {
 		this.hp = newHp;
 	}
 
